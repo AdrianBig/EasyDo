@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7a951e13e.js" crossorigin="anonymous"></script>
+    <title>Easy Do - To-Do List</title>
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+    <nav id="nav">
+        <div class="nav-wrapper container">
+            <div class="nav-items">
+                <div class="nav-logo">
+                    <img src="logo.svg" alt="To Do Logo">
+                    <span>EasyDo</span>
+                </div>
+                <div class="nav-add">
+                    <button onclick="openNew();">
+                        <img src="plus.svg" alt="Add To-Do">
+                        <p>Add To Do</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="main-wrapper">
+            <div class="main-column">
+                <h1>Plan your day <span>easily!</span></h1>
+                <h2>Never been this easy.</h2>
+                <div class="main-buttons">
+                    <div class="main-button main-button-git">
+                        <a href="#">Test Button 1</a>
+                    </div>
+                    <div class="main-button main-button-contact">
+                        <a href="#">Test Button 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-column main-column-flex">
+                <h1>To-Do's</h1>
+
+                <div class="todo-list-wrapper">
+                    <div class="todo-list-grid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="tutorial-button">
+            <button id="tut-button" onclick="openTut();"><i class="fas fa-question"></i></button>
+        </div>
+    </main>
+
+
+    <!-- New Item Popup -->
+    <div class="new-item">
+        <div class="new-item-wrapper">
+            <div class="new-item-content">
+                <div class="new-item-bar">
+                    <h1><span>Add</span> an Item to your To-Do List</h1>
+                    <div class="new-item-close">
+                        <button id="close-new" onclick="closeNew();"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="new-item-form">
+                    <form>
+                        <div class="new-item-grid">
+                            <div class="new-item-cell">
+                                <div class="new-item-cell-content">
+                                    <p>What do you have to do?</p>
+                                    <textarea name="" id="todo-input" cols="30" rows="10"
+                                        placeholder="To Do"></textarea>
+                                </div>
+                            </div>
+                            <div class="new-item-cell">
+                                <div class="new-item-cell-content">
+                                    <p>Due</p>
+                                    <input type="date" name="" id="todo-due">
+                                </div>
+                            </div>
+                            <div class="new-item-cell">
+                                <div class="new-item-cell-content new-item-cell-content-height">
+                                    <button class="add-todo" type="submit" onclick="addItem();">Add to List</button>
+                                </div>
+                            </div>
+                            <div class="new-item-cell new-item-cell-error">
+                                <div class="new-item-cell-content">
+                                    <p id="item-error-message">Your Input fields were empty or invalid!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tutorial Pop up -->
+    <div id="tutorial">
+        <div class="tutorial-wrapper">
+            <div class="tutorial-grid">
+                <div class="tutorial-column tutorial-column-close">
+                    <button onclick="closeTut();"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="tutorial-column">
+                    <div class="tutorial-content">
+                        <h2>How to:</h2>
+                        <hr id="tutorial-hr">
+                    </div>
+                </div>
+                <div class="tutorial-column">
+                    <div class="tutorial-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sequi non aliquam architecto,
+                            repellendus modi nostrum, laudantium animi ipsam perspiciatis, voluptas delectus odio?
+                            Aperiam illum ullam quibusdam amet, veritatis rem voluptatibus voluptate dolorum incidunt
+                            veniam facere qui perferendis sunt alias vitae tenetur mollitia ipsa ad ex molestiae modi
+                            et. Soluta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

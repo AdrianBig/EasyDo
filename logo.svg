@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+  <g id="Gruppe_25" data-name="Gruppe 25" transform="translate(-140 -33)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="34" cy="34" r="34" transform="translate(140 33)" fill="#2a324b"/>
+    <g id="post-it" transform="translate(154 27.62)">
+      <path id="Pfad_1" data-name="Pfad 1" d="M30.831,113.349,20.67,87.655A.829.829,0,0,0,20,87.138L4.249,85.284a.817.817,0,0,0-.923.7c0,.01,0,.02,0,.03L.007,112.533a.829.829,0,0,0,.714.929l.02,0L29.75,116.78h.094a.829.829,0,0,0,.829-.751l.215-2.3A.826.826,0,0,0,30.831,113.349Z" transform="translate(0 -58.931)" fill="#007266"/>
+      <path id="Pfad_2" data-name="Pfad 2" d="M115.212,86.028a.829.829,0,0,0-.92-.727h-.007l-7.128.839L86.1,88.617a.829.829,0,0,0-.731.907l2.487,26.523a.829.829,0,0,0,.829.751h.094l29.009-3.315a.829.829,0,0,0,.729-.918v-.01Z" transform="translate(-78.736 -58.949)" fill="#1b998b"/>
+      <path id="Pfad_3" data-name="Pfad 3" d="M299.568,101.717a.829.829,0,0,1-.587-1.416l4.144-4.144a.829.829,0,1,1,1.192,1.152l-.02.02-4.144,4.144A.829.829,0,0,1,299.568,101.717Z" transform="translate(-275.525 -68.734)" fill="#455a64"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="4.144" cy="4.144" r="4.144" transform="translate(26.53 21.38)" fill="#f44336"/>
+    </g>
+  </g>
+</svg>
